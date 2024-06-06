@@ -1,14 +1,41 @@
 <!DOCTYPE html>
-{% load static %}
+<!--{% load static %}-->
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="{% static '/css/normalize.css' %}">
+<!--    <link rel="stylesheet" href="{% static '/css/normalize.css' %}">-->
+<!--    <link rel="stylesheet" href="{% static '/css/style.css' %}">-->
+    <link rel="stylesheet" href="../../static/css/normalize.css">
+    <link rel="stylesheet" href="../../static/css/style.css">
     <title>Title</title>
 </head>
 <body>
-<header>
-
-</header>
+    <header class="header-box">
+        <div class="title">Переводчик</div>
+    </header>
+    <div class="main-content">
+        <div class="main-panel">
+            <div class="upper-part-main-panel">
+                <div class="cell-in-upper-panel">
+                <div class="language">
+                    Russian
+                </div>
+            </div>
+            <div class="cell-in-upper-panel">
+                <div class="language">
+                    Russian
+                </div>
+            </div>
+            </div>
+            <div class="lower-part-main-panel">
+                <div class="cell-in-lower-panel">
+                    <input type="text" aria-placeholder="fff" aria-multiline="true" data-allow-linebreaks="true">
+                </div>
+                <div class="cell-in-lower-panel">
+                    After
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
